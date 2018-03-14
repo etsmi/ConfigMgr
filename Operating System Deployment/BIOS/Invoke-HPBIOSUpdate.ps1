@@ -10,9 +10,9 @@
 
 .PARAMETER PasswordBin
     Specify the BIOS password file if necessary. 
-	Save the password file to the same directory as the script.
-	Passwords are created with HPQPswd.exe utility that usually is included in the bios package.
-	!!!Note that some older BIOS password files have to be created with the packages own HPQPswd executable!!!
+    Save the password file to the same directory as the script.
+    Passwords are created with HPQPswd.exe utility that usually is included in the bios package.
+    !!!Note that some older BIOS password files have to be created with the packages own HPQPswd executable!!!
 
 .PARAMETER LogFileName
     Set the name of the log file produced by the flash utility.
@@ -30,7 +30,7 @@
     Version history:
 	1.0.0 - (2017-09-05) Script created
 	1.0.1 - (2018-01-30) Updated encrypted volume check and cleaned up some logging messages
-    1.0.2 - (2018-03-13) Updated combability for older HP models & fix manage-bde driveletter
+	1.0.2 - (2018-03-13) Updated combability for older HP models & fix manage-bde driveletter
 #>
 
 [CmdletBinding(SupportsShouldProcess = $true)]
